@@ -122,11 +122,8 @@ def show_home_page():
     Copy and paste this prompt:
     """)
     
-    prompt = """Create a grid of chibi stickers featuring characters showing different expressions:
-Happy, Laughing, Angry, Crying, Sulking, Thinking, Sleepy, Blowing kiss, Winking, Surprised, Excited, Confused
-
-Style: Cute chibi art, clear grid layout with visible borders, white background
-Grid options: 3×4 layout (3 columns, 4 rows)"""
+    prompt = """Convert the image into a set of 12 chibi sticker (4x4 grid) with outfit similar to this one, 
+    including expression of laughing being angry, crying, sulking, thinking, being sleepy, blowing a kiss, winking, being surprise"""
     
     st.code(prompt, language=None)
     
