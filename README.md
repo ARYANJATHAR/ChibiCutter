@@ -42,4 +42,4 @@ Your uploaded images are processed entirely within the application and are not s
 
 ## Copyright
 
-© 2023 All Rights Reserved
+© 2025 All Rights Reserved
