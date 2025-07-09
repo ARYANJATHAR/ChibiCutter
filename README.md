@@ -11,54 +11,37 @@ ChibiCutter is a tool that helps you cut AI-generated character grids into indiv
 - **Individual Downloads** - Download specific stickers separately
 - **High Quality Output** - All stickers are saved as PNG files with transparency preserved
 
-## Installation
+## How to Use
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/ChibiCutter.git
-   cd ChibiCutter
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Run the application:
-   ```
-   streamlit run app.py
-   ```
-
-2. Open the provided URL in your web browser (typically http://localhost:8501)
-
-3. Follow these steps in the application:
+1. Visit [ChibiCutter](https://chibicutter.streamlit.app) on any device
+   
+2. Follow these simple steps:
    - Upload your grid image
    - Adjust grid dimensions if needed (default is 3×4)
    - The app will automatically calculate optimal margins
    - Click "Cut Stickers" to process your image
    - Download all stickers as a ZIP file or download individual stickers
 
-## Example
+## Example Uses
 
 The app works best with grid-style images like these:
 - Character expression sheets
 - Emoji collections
 - Sticker packs with uniform layouts
 
-## Requirements
+## Technology
 
-- Python 3.8+
+ChibiCutter is powered by:
 - Streamlit
 - OpenCV
-- Pillow (PIL)
-- NumPy
+- Python image processing libraries
 
-## Contributing
+## Privacy
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Your uploaded images are processed entirely within the application and are not stored permanently.
 
-## License
+## Copyright
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+© 2023 All Rights Reserved
+
+ChibiCutter is a proprietary application. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited. 
