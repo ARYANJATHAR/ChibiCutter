@@ -31,8 +31,7 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Project specific
-requirements.txt
+
 
 # Database
 *.db
