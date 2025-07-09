@@ -155,7 +155,7 @@ def show_sticker_cutter():
     # Back to home button
     if st.button("🏠 Back to Home", key="back_home"):
         st.session_state.page = "home"
-        st.rerun()
+        st.experimental_rerun()
     
     # File upload
     uploaded_file = st.file_uploader(
@@ -699,7 +699,7 @@ def main():
         with col2:
             if st.button("🚀 Start Creating Stickers!", type="primary"):
                 st.session_state.page = "cutter"
-                st.rerun()
+                st.experimental_rerun()
     
     elif st.session_state.page == "cutter":
         show_sticker_cutter()
