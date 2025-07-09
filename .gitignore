@@ -32,7 +32,6 @@ ENV/
 .ipynb_checkpoints
 
 
-
 # Database
 *.db
 *.sqlite3

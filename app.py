@@ -172,7 +172,7 @@ def show_sticker_cutter():
         
         with col1:
             st.subheader("📸 Your Image")
-            st.image(image, caption="Original Grid Image", use_container_width=True)
+            st.image(image, caption="Original Grid Image", width=None)
         
         with col2:
             st.subheader("⚙️ Grid Settings")
@@ -262,7 +262,7 @@ def show_sticker_cutter():
                 st.image(
                     sticker['image'], 
                     caption=f"Sticker {sticker['number']}", 
-                    use_container_width=True
+                    width=None
                 )
                 
                 # Individual download button
@@ -697,7 +697,7 @@ def main():
         # Start button
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            if st.button("🚀 Start Creating Stickers!", type="primary", use_container_width=True):
+            if st.button("🚀 Start Creating Stickers!", type="primary"):
                 st.session_state.page = "cutter"
                 st.rerun()
     
