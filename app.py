@@ -220,7 +220,7 @@ def show_sticker_cutter():
             st.info(f"📐 Margins: {margin_x}px × {margin_y}px")
             
             # Process button
-            if st.button("✂️ Cut Stickers", type="primary"):
+            if st.button("✂️ Cut Stickers"):
                 with st.spinner("🔄 Processing your stickers..."):
                     try:
                         # Cut the stickers
@@ -245,8 +245,7 @@ def show_sticker_cutter():
             label="📥 Download All Stickers (ZIP)",
             data=zip_file,
             file_name="stickers.zip",
-            mime="application/zip",
-            type="primary"
+            mime="application/zip"
         )
         
         # Display preview of stickers
@@ -697,7 +696,7 @@ def main():
         # Start button
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            if st.button("🚀 Start Creating Stickers!", type="primary"):
+            if st.button("🚀 Start Creating Stickers!"):
                 st.session_state.page = "cutter"
                 st.experimental_rerun()
     
